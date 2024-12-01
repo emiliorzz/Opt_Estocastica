@@ -111,10 +111,6 @@ def pedidos_a_datos(pedidos, param):
 
     return pedidos_ordenados
 
-import copy
-
-import copy
-
 # Modificación de la función agregar_pedido_forzoso
 def agregar_pedido_forzoso(maquinas, pedido_forzoso, waitlist, descompuestas, sim_pedidos_dict, max_intentos=10):
     intentos = 0
